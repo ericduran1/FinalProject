@@ -7,7 +7,7 @@ function getTip(){
     alert("Ooops! Enter the correct information.");
     return;
   }
-
+// so for this line of code if the people is left empty for how many tippers the word each will not be called because it will display none. but if their is at least one person written down in the how many people were there then is will display the each ID i created in the HTML file
   if(people === ""||people === 1){
     people = 1;
     document.getElementById('each').style.display ='none';
